@@ -1,0 +1,72 @@
+single page application:any changes happenend 
+react is mainly used to create single page applications.
+virtual dom:it is virtual representation of UI which kept in a memory later sinked with real dom with the help of a library react dom library
+-the updation of real dom with virtual dom
+-the entire process of updating the real dom with help of vdom is called as reconsilation.
+
+JSX:
+-jsx stands for javascipt and xml
+-it is a javascript syntax extension used to create Html-like markup in the react.
+-actual way to create a element in react is by using a method called as
+-react.createElement("tagname",{propertyname}
+
+
+jsx is not part of react,but is recommened to use in react
+rules of jsx:
+1.every element irrespective of paired/unpaired tag both must be closed.
+ex:<h1></h1>,<input/>
+2.more then one jsx element is uded the they must wrapped with one parent element
+ex:<div>
+<h1></h1>
+
+jsx expression:
+-jsx expression is used to call the variable,mathematical expression inside the element
+syntax:<h1>{variable/expression}</h1>
+
+components:
+-components are the files or modules which consist of js related logics which can be reuse
+two types of components
+1.class based components(cbc):
+
+2.functional based components(fbc):
+-cbc is similar to javascipt es6 class
+syntax:class person{
+constructor(mame , age){
+this.name=name;
+this.age=age;
+}
+}
+class child extends person{
+constructor(name,age,city){
+super(name,age);
+this.city=city;
+}
+}
+syntax: class App extends React.component{
+render(){
+return(
+//jsx element
+)
+}
+}
+export default App;
+fbc:
+similar to js functiona
+-"stateless" bcos there is no state object until react v16.8.
+syntax:
+function App(){
+return(
+)
+}
+export default App;
+orconst App()=>{
+return(
+//jsx
+)}
+export default App;
+component composition:
+it is used to combine multiple components into single component
+props:
+-it is nothing but a properties similar to html attributes
+-it is an object
+-
