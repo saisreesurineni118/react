@@ -87,16 +87,19 @@ import React from 'react'
 // import FBCStateEX from './StateExample/FBCStateEX'
 // import FunctionalComponent from './components/FunctionalComponent'
 // import CBCStateASSIGNMENT from './components/CBCStateASSIGNMENT'
-import MyForm from './MyForm'
-
-const App = () => {
+// import MyForm from './MyForm'
+// import UseEffectEx from './hooksexample/UseEffectEx'
+import RefExample from './hooksexample/RefExample'
+export const App = () => {
   return (
     <div>
       {/* <FunctionalComponent clgName='MRU' area='maisammaguda'/> */}
 
       {/* <FBCStateEX/> */}
       {/* <CBCStateASSIGNMENT/> */}
-      <MyForm/>
+      {/* <MyForm/> */}
+      {/* <UseEffectEx/> */}
+      <RefExample/>
     </div>
   )
 }
